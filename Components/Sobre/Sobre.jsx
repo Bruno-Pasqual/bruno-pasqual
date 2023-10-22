@@ -6,7 +6,6 @@ const Sobre = () => {
   return (
     <div id="sobre">
       <div className="sobre-header">
-        {/* <img src="/public/perfil.png" className="imagem-perfil" /> */}
         <div className="container-foto"></div>
         <div className="container-info">
           <p>
@@ -34,26 +33,26 @@ const Sobre = () => {
         <h4>Hobbies</h4>
         <div className="container-atividades">
           <img
-            src="/public/drive.jpg"
+            src="/drive.jpg"
             className={ativo == 1 ? 'ativo' : ''}
             alt=""
             onClick={() => setAtivo(1)}
           />
 
           <img
-            src="/public/nado.jpg"
+            src="/nado.jpg"
             alt=""
             className={ativo == 2 ? 'ativo' : ''}
             onClick={() => setAtivo(2)}
           />
           <img
-            src="/public/volei.jpg"
+            src="/volei.jpg"
             className={ativo == 3 ? 'ativo' : ''}
             alt=""
             onClick={() => setAtivo(3)}
           />
           <img
-            src="/public/travel.jpg"
+            src="/travel.jpg"
             alt=""
             className={ativo == 4 ? 'ativo' : ''}
             onClick={() => setAtivo(4)}
