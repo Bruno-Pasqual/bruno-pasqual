@@ -20,15 +20,15 @@ const Sobre = () => {
             <span> transição de carreira</span>, buscando adentrar na área de{' '}
             <span> desenvolvimento</span>.
           </p>
+          <ul>
+            <li>Python</li>
+            <li>Javascript</li>
+            <li>Nodejs</li>
+            <li>React</li>
+            <li>CSS</li>
+            <li>SQL</li>
+          </ul>
         </div>
-        <ul>
-          <li>Python</li>
-          <li>Javascript</li>
-          <li>Nodejs</li>
-          <li>React</li>
-          <li>CSS</li>
-          <li>SQL</li>
-        </ul>
       </div>
       <div className="sobre-hobbies">
         <h4>Hobbies</h4>
